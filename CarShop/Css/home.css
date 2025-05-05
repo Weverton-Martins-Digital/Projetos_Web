@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+.container .navegation {
+    justify-content: space-evenly;
+    background-color: #111111;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+
+
+.container .navegation section {
+    display: flex;
+}
+
+
+.container .navegation section ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.container .navegation section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.1s;
+    margin: 10px;
+}
+.container .navegation section ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 145, 0);
+}
+
+
+.container .navegation section span {
+    transition: 0.1s;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
+.container .navegation section span:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+.container .banners img {
+    cursor: not-allowed;
+    height: 90vh;
+    width: 100vw;
+}
+
+
+.container .banners .txtBanners {
+    position: absolute;
+    text-align: left;
+    left: 10%;
+    top: 20%;
+}
+
+
+.container .banners .txtBanners h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+.container .banners .txtBanners h1 {
+    max-width: 500px;
+    font-size: 60px;
+}
+
+
+.container .banners .txtBanners section button {
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 30px;
+    transition: 0.1s;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.container .banners .txtBanners section button:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
