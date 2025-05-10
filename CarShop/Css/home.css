@@ -63,7 +63,7 @@ body {
 
 
 .container .banners img {
-    cursor: not-allowed;
+    cursor: default;
     height: 90vh;
     width: 100vw;
 }
@@ -84,8 +84,8 @@ body {
 
 
 .container .banners .txtBanners h1 {
-    max-width: 500px;
-    font-size: 60px;
+    max-width: 400px;
+    font-size: 50px;
 }
 
 

@@ -1,9 +1,5 @@
 /* Funções para a animação e troca de imagem do banner por condição
 do botão apertado */
-const buttonConfigu = document.getElementById('buttonConfigu');
-const buttonSong = document.getElementById('buttonSong');
-const buttonLike = document.getElementById('buttonLike');
-
 const buttonLeft = document.getElementById('buttonLeft');
 const buttonImage = document.getElementById('buttonImage');
 const buttonRight = document.getElementById('buttonRight');
@@ -12,11 +8,13 @@ const bannerImagem = document.getElementById('bannerImagem');
 
 // Array com os caminhos das imagens
 const imagensBanner = [
-    '/CarShop/Image/Banner_001.jpg',
-    '/CarShop/Image/Banner_002.jpg',
-    '/CarShop/Image/Banner_003.jpg',
-    '/CarShop/Image/Banner_004.jpg',
-    '/CarShop/Image/Banner_005.jpg'
+    '/CarShop/Image/Banner-006.jpg',
+    '/CarShop/Image/Banner-002.jpg',
+    '/CarShop/Image/Banner-003.jpg',
+    '/CarShop/Image/Banner-004.jpg',
+    '/CarShop/Image/Banner-005.jpg',
+    '/CarShop/Image/Banner-001.jpg',
+    '/CarShop/Image/Banner-007.jpg'
 ];
 
 // Variável para controlar o índice da imagem atual
