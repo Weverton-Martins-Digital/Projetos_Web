@@ -106,3 +106,18 @@ body {
     border-color: #000000;
     color: #000000;
 }
+
+
+.container .models img{
+    cursor: default;    
+    height: 90vh;
+    width: 100%;
+}
+
+
+.container .models .txtModels {
+    position: absolute;
+    margin-top: 20px;
+    left: 10%;
+    top: 100%;
+}
